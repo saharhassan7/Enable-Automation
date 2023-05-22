@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="0" failed="0" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T18:53:19Z" name="Suite" finished-at="2023-05-22T18:53:19Z" duration-ms="69">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T18:53:19Z" name="Test" finished-at="2023-05-22T18:53:19Z" duration-ms="69">
+      <class name="tests.ChekoutTC2">
+        <test-method signature="Login(java.lang.String, java.lang.String)[pri:1, instance:tests.ChekoutTC2@4f6f416f]" started-at="2023-05-22T18:53:19Z" name="Login" data-provider="loginData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addToCart()[pri:2, instance:tests.ChekoutTC2@4f6f416f]" started-at="2023-05-22T18:53:19Z" name="addToCart" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="Checkout(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.ChekoutTC2@4f6f416f]" started-at="2023-05-22T18:53:19Z" name="Checkout" data-provider="checkoutData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- tests.ChekoutTC2 -->
+      <class name="tests.CheckoutTC3">
+        <test-method signature="Login(java.lang.String, java.lang.String)[pri:1, instance:tests.CheckoutTC3@3b8f0a79]" started-at="2023-05-22T18:53:19Z" name="Login" data-provider="loginData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addToCart()[pri:2, instance:tests.CheckoutTC3@3b8f0a79]" started-at="2023-05-22T18:53:19Z" name="addToCart" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="Checkout(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.CheckoutTC3@3b8f0a79]" started-at="2023-05-22T18:53:19Z" name="Checkout" data-provider="checkoutData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- tests.CheckoutTC3 -->
+      <class name="tests.CheckOutTC1">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:tests.CheckOutTC1@3e74829]" started-at="2023-05-22T18:52:44Z" name="StartDriver" finished-at="2023-05-22T18:53:19Z" duration-ms="35299" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="Login(java.lang.String, java.lang.String)[pri:1, instance:tests.CheckOutTC1@3e74829]" started-at="2023-05-22T18:53:19Z" name="Login" data-provider="loginData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addToCart()[pri:2, instance:tests.CheckOutTC1@3e74829]" started-at="2023-05-22T18:53:19Z" name="addToCart" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="Checkout(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.CheckOutTC1@3e74829]" started-at="2023-05-22T18:53:19Z" name="Checkout" data-provider="checkoutData" finished-at="2023-05-22T18:53:19Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RQA8NQN', ip: '169.254.200.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+GetHandleVerifier [0x008E8893+48451]
+(No symbol) [0x0087B8A1]
+(No symbol) [0x00785058]
+(No symbol) [0x0077924D]
+(No symbol) [0x00778DDD]
+(No symbol) [0x00778175]
+(No symbol) [0x0077810C]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00780E16]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077E676]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x0077C77B]
+(No symbol) [0x007762F5]
+(No symbol) [0x00777E2A]
+(No symbol) [0x00776D46]
+(No symbol) [0x007774A8]
+(No symbol) [0x007764C5]
+(No symbol) [0x00770BEF]
+(No symbol) [0x007762F5]
+(No symbol) [0x00775C9D]
+(No symbol) [0x0077597C]
+(No symbol) [0x007863F3]
+(No symbol) [0x0076C823]
+(No symbol) [0x0076BF15]
+(No symbol) [0x007D0853]
+(No symbol) [0x007D047C]
+(No symbol) [0x007CA0B6]
+(No symbol) [0x007A7E08]
+(No symbol) [0x007A8F2D]
+GetHandleVerifier [0x00B48E3A+2540266]
+GetHandleVerifier [0x00B88959+2801161]
+GetHandleVerifier [0x00B8295C+2776588]
+GetHandleVerifier [0x00972280+612144]
+(No symbol) [0x00884F6C]
+(No symbol) [0x008811D8]
+(No symbol) [0x008812BB]
+(No symbol) [0x00874857]
+BaseThreadInitThunk [0x76E26BA9+25]
+RtlGetFullPathName_UEx [0x77288F9F+1215]
+RtlGetFullPathName_UEx [0x77288F6D+1165]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at tests.TestBase.StartDriver(TestBase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckOutTC1@3e74829]" started-at="2023-05-22T18:53:20Z" name="teardown" finished-at="2023-05-22T18:53:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CheckOutTC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
