@@ -24,7 +24,6 @@ public class LoginPage extends PageBase{
 		SendText(userName, user);
 		SendText(passwrod, pswd);
 		ClickButton(loginBtn);
-		Thread.sleep(2000);
 	}
 
 }

@@ -31,21 +31,15 @@ public class ProductPage extends PageBase{
 	
 	public void addOneProduct() throws InterruptedException {
 		ClickButton(product1);
-		Thread.sleep(1000);
 		ClickButton(shoppingCart);
-		Thread.sleep(1000);
 		ClickButton(checkoutBtn);
-		Thread.sleep(1000);
 		
 	}
 	public void addThreeProducts() throws InterruptedException {
 		ClickButton(product1);
 		ClickButton(product2);
 		ClickButton(product3);
-		Thread.sleep(1000);
 		ClickButton(shoppingCart);
-		Thread.sleep(1000);
 		ClickButton(checkoutBtn);
-		Thread.sleep(1000);
 	
 }}
